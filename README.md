@@ -34,14 +34,21 @@ A web-based Spotify clone built with **HTML, CSS, and JavaScript**. This project
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/spotify-clone.git
+git clone https://github.com/DhwaniDalsania/spotify-clone.git
 cd spotify-clone
 ```
 ### 2. Open the project
 
-Open index.html in your favorite web browser.
-No server setup is required for basic playback.
+Open project using live server in vs code or
 
+Open terminal in the project folder and run:
+```bash
+# Python 3
+python -m http.server 5500
+# Or Node.js
+npx serve
+Then open http://localhost:5500 in your browser.
+```
 ---
 ## 🎵 How to Use
 
